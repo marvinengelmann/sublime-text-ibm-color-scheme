@@ -14,7 +14,8 @@ data = {
             "name": "Red 50",
             "foreground": "#fa4d56",
             "scope": ", ".join([
-                "constant.numeric"
+                "constant.numeric",
+                "constant.other.color"
             ])
         },
         {
@@ -22,7 +23,10 @@ data = {
             "foreground": "#ee5396",
             "scope": ", ".join([
                 "keyword",
-                "punctuation.definition.numeric"
+                "punctuation.definition.numeric",
+                "punctuation.separator.combinator",
+                "entity.other.pseudo-class",
+                "entity.other.pseudo-element"
             ])
         },
         {
@@ -101,7 +105,10 @@ data = {
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
-                "entity.name.type"
+                "entity.name.type",
+                "entity.name.tag",
+                "entity.other.pseudo-class",
+                "entity.other.pseudo-element"
             ]),
             "font_style": "italic"
         },

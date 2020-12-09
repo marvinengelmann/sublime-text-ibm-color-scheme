@@ -11,12 +11,12 @@
         {
             "name": "Red 50",
             "foreground": "#fa4d56",
-            "scope": "constant.numeric"
+            "scope": "constant.numeric, constant.other.color"
         },
         {
             "name": "Magenta 50",
             "foreground": "#ee5396",
-            "scope": "keyword, punctuation.definition.numeric"
+            "scope": "keyword, punctuation.definition.numeric, punctuation.separator.combinator, entity.other.pseudo-class, entity.other.pseudo-element"
         },
         {
             "name": "Purple 50",
@@ -55,7 +55,7 @@
         },
         {
             "name": "Italic",
-            "scope": "constant.language, keyword, keyword.operator.logical, storage.type, storage.modifier, variable.language, entity.name.type",
+            "scope": "constant.language, keyword, keyword.operator.logical, storage.type, storage.modifier, variable.language, entity.name.type, entity.name.tag, entity.other.pseudo-class, entity.other.pseudo-element",
             "font_style": "italic"
         },
         {
