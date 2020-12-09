@@ -21,12 +21,12 @@
         {
             "name": "Purple 50",
             "foreground": "#a56eff",
-            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum, variable.type"
+            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum, entity.name.type, variable.type"
         },
         {
             "name": "Blue 50",
             "foreground": "#4589ff",
-            "scope": "storage.type, storage.modifier, variable.language, entity.name.type, entity.name.tag"
+            "scope": "storage.type, storage.modifier, variable.language, entity.name.tag, support.type.primitive"
         },
         {
             "name": "Teal 40",
@@ -46,7 +46,7 @@
         {
             "name": "Gray 30",
             "foreground": "#c6c6c6",
-            "scope": "punctuation"
+            "scope": "punctuation, keyword.operator.type.annotation"
         },
         {
             "name": "White",
@@ -55,12 +55,12 @@
         },
         {
             "name": "Italic",
-            "scope": "constant.language, keyword, storage.type, storage.modifier, variable.language, entity.name.type, entity.name.tag, entity.other.pseudo-class, entity.other.pseudo-element",
+            "scope": "constant.language, keyword, storage.type, storage.modifier, variable.language, entity.name.tag, entity.other.pseudo-class, entity.other.pseudo-element, support.type.primitive",
             "font_style": "italic"
         },
         {
             "name": "None",
-            "scope": "keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.unpacking, keyword.operator.relational",
+            "scope": "keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.unpacking, keyword.operator.relational, keyword.operator.optional, keyword.operator.type.annotation, storage.type.function.arrow",
             "font_style": ""
         }
     ]

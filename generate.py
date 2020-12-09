@@ -45,6 +45,7 @@ data = {
                 "entity.name.namespace",
                 "entity.name.struct",
                 "entity.name.enum",
+                "entity.name.type",
                 "variable.type"
             ])
         },
@@ -55,8 +56,8 @@ data = {
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
-                "entity.name.type",
-                "entity.name.tag"
+                "entity.name.tag",
+                "support.type.primitive"
             ])
         },
         {
@@ -89,7 +90,8 @@ data = {
             "name": "Gray 30",
             "foreground": "#c6c6c6",
             "scope": ", ".join([
-                "punctuation"
+                "punctuation",
+                "keyword.operator.type.annotation"
             ])
         },
         {
@@ -106,10 +108,10 @@ data = {
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
-                "entity.name.type",
                 "entity.name.tag",
                 "entity.other.pseudo-class",
-                "entity.other.pseudo-element"
+                "entity.other.pseudo-element",
+                "support.type.primitive"
             ]),
             "font_style": "italic"
         },
@@ -120,7 +122,10 @@ data = {
                 "keyword.operator.comparison",
                 "keyword.operator.assignment",
                 "keyword.operator.unpacking",
-                "keyword.operator.relational"
+                "keyword.operator.relational",
+                "keyword.operator.optional",
+                "keyword.operator.type.annotation",
+                "storage.type.function.arrow"
             ]),
             "font_style": ""
         }
