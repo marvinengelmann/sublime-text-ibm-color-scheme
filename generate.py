@@ -21,7 +21,8 @@ data = {
             "name": "Magenta 50",
             "foreground": "#ee5396",
             "scope": ", ".join([
-                "keyword"
+                "keyword",
+                "punctuation.definition.numeric"
             ])
         },
         {
@@ -30,7 +31,13 @@ data = {
             "scope": ", ".join([
                 "constant.language",
                 "support.type",
-                "entity.name.class"
+                "support.class",
+                "support.other.namespace",
+                "entity.name.class",
+                "entity.other.inherited-class",
+                "entity.name.interface",
+                "entity.name.trait",
+                "entity.name.namespace"
             ])
         },
         {
@@ -38,6 +45,7 @@ data = {
             "foreground": "#4589ff",
             "scope": ", ".join([
                 "storage.type",
+                "storage.modifier",
                 "variable.language",
             ])
         },
@@ -86,6 +94,7 @@ data = {
                 "keyword",
                 "keyword.operator.logical",
                 "storage.type",
+                "storage.modifier",
                 "variable.language"
             ]),
             "font_style": "italic"

@@ -16,17 +16,17 @@
         {
             "name": "Magenta 50",
             "foreground": "#ee5396",
-            "scope": "keyword"
+            "scope": "keyword, punctuation.definition.numeric"
         },
         {
             "name": "Purple 50",
             "foreground": "#a56eff",
-            "scope": "constant.language, support.type, entity.name.class"
+            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace"
         },
         {
             "name": "Blue 50",
             "foreground": "#4589ff",
-            "scope": "storage.type, variable.language"
+            "scope": "storage.type, storage.modifier, variable.language"
         },
         {
             "name": "Teal 40",
@@ -55,7 +55,7 @@
         },
         {
             "name": "Italic",
-            "scope": "constant.language, keyword, keyword.operator.logical, storage.type, variable.language",
+            "scope": "constant.language, keyword, keyword.operator.logical, storage.type, storage.modifier, variable.language",
             "font_style": "italic"
         },
         {
