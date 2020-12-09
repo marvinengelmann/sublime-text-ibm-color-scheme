@@ -26,12 +26,12 @@
         {
             "name": "Blue 50",
             "foreground": "#4589ff",
-            "scope": "storage.type, storage.modifier, variable.language, entity.name.type"
+            "scope": "storage.type, storage.modifier, variable.language, entity.name.type, entity.name.tag"
         },
         {
             "name": "Teal 40",
             "foreground": "#08bdba",
-            "scope": "variable.function, variable.annotation, entity.name.function, support.function"
+            "scope": "variable.function, variable.annotation, entity.name.function, entity.other.attribute-name, support.function"
         },
         {
             "name": "Green 40",

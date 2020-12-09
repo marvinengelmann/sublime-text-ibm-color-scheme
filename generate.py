@@ -49,7 +49,8 @@ data = {
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
-                "entity.name.type"
+                "entity.name.type",
+                "entity.name.tag"
             ])
         },
         {
@@ -59,6 +60,7 @@ data = {
                 "variable.function",
                 "variable.annotation",
                 "entity.name.function",
+                "entity.other.attribute-name",
                 "support.function"
             ])
         },
