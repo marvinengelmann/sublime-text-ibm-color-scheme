@@ -125,7 +125,9 @@ data = {
                 "keyword.operator.relational",
                 "keyword.operator.optional",
                 "keyword.operator.type.annotation",
-                "storage.type.function.arrow"
+                "storage.type.function.arrow",
+                "entity.name.tag.html",
+                "entity.name.tag."
             ]),
             "font_style": ""
         }

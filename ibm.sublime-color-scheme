@@ -60,7 +60,7 @@
         },
         {
             "name": "None",
-            "scope": "keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.unpacking, keyword.operator.relational, keyword.operator.optional, keyword.operator.type.annotation, storage.type.function.arrow",
+            "scope": "keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.unpacking, keyword.operator.relational, keyword.operator.optional, keyword.operator.type.annotation, storage.type.function.arrow, entity.name.tag.html, entity.name.tag.",
             "font_style": ""
         }
     ]
