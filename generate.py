@@ -26,7 +26,8 @@ data = {
                 "punctuation.definition.numeric",
                 "punctuation.separator.combinator",
                 "entity.other.pseudo-class",
-                "entity.other.pseudo-element"
+                "entity.other.pseudo-element",
+                "storage.type.function.arrow"
             ])
         },
         {
@@ -43,7 +44,8 @@ data = {
                 "entity.name.trait",
                 "entity.name.namespace",
                 "entity.name.struct",
-                "entity.name.enum"
+                "entity.name.enum",
+                "variable.type"
             ])
         },
         {
@@ -101,7 +103,6 @@ data = {
             "scope": ", ".join([
                 "constant.language",
                 "keyword",
-                "keyword.operator.logical",
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
@@ -115,7 +116,11 @@ data = {
         {
             "name": "None",
             "scope": ", ".join([
-                "keyword.operator"
+                "keyword.operator.arithmetic",
+                "keyword.operator.comparison",
+                "keyword.operator.assignment",
+                "keyword.operator.unpacking",
+                "keyword.operator.relational"
             ]),
             "font_style": ""
         }

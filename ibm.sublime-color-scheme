@@ -16,12 +16,12 @@
         {
             "name": "Magenta 50",
             "foreground": "#ee5396",
-            "scope": "keyword, punctuation.definition.numeric, punctuation.separator.combinator, entity.other.pseudo-class, entity.other.pseudo-element"
+            "scope": "keyword, punctuation.definition.numeric, punctuation.separator.combinator, entity.other.pseudo-class, entity.other.pseudo-element, storage.type.function.arrow"
         },
         {
             "name": "Purple 50",
             "foreground": "#a56eff",
-            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum"
+            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum, variable.type"
         },
         {
             "name": "Blue 50",
@@ -55,12 +55,12 @@
         },
         {
             "name": "Italic",
-            "scope": "constant.language, keyword, keyword.operator.logical, storage.type, storage.modifier, variable.language, entity.name.type, entity.name.tag, entity.other.pseudo-class, entity.other.pseudo-element",
+            "scope": "constant.language, keyword, storage.type, storage.modifier, variable.language, entity.name.type, entity.name.tag, entity.other.pseudo-class, entity.other.pseudo-element",
             "font_style": "italic"
         },
         {
             "name": "None",
-            "scope": "keyword.operator",
+            "scope": "keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.unpacking, keyword.operator.relational",
             "font_style": ""
         }
     ]
