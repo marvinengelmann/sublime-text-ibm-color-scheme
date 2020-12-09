@@ -37,7 +37,9 @@ data = {
                 "entity.other.inherited-class",
                 "entity.name.interface",
                 "entity.name.trait",
-                "entity.name.namespace"
+                "entity.name.namespace",
+                "entity.name.struct",
+                "entity.name.enum"
             ])
         },
         {
@@ -47,6 +49,7 @@ data = {
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
+                "entity.name.type"
             ])
         },
         {
@@ -95,7 +98,8 @@ data = {
                 "keyword.operator.logical",
                 "storage.type",
                 "storage.modifier",
-                "variable.language"
+                "variable.language",
+                "entity.name.type"
             ]),
             "font_style": "italic"
         },
