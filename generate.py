@@ -67,8 +67,8 @@ data = {
             ])
         },
         {
-            "name": "Gray 40",
-            "foreground": "#a8a8a8",
+            "name": "Gray 30",
+            "foreground": "#c6c6c6",
             "scope": ", ".join([
                 "punctuation"
             ])
