@@ -6,21 +6,21 @@ data = {
         "background": "#161616",
         "foreground": "#ffffff",
         "selection": "#262626",
-        "selection_border": "#78a9ff",
+        "selection_border": "#ffffff",
         "caret": "#0f62fe",
     },
     "rules": [
         {
-            "name": "Red 50",
-            "foreground": "#fa4d56",
+            "name": "Red 40",
+            "foreground": "#ff8389",
             "scope": ", ".join([
                 "constant.numeric",
                 "constant.other.color"
             ])
         },
         {
-            "name": "Magenta 50",
-            "foreground": "#ee5396",
+            "name": "Magenta 40",
+            "foreground": "#ff7eb6",
             "scope": ", ".join([
                 "keyword",
                 "punctuation.definition.numeric",
@@ -31,8 +31,8 @@ data = {
             ])
         },
         {
-            "name": "Purple 50",
-            "foreground": "#a56eff",
+            "name": "Purple 40",
+            "foreground": "#be95ff",
             "scope": ", ".join([
                 "constant.language",
                 "support.type",
@@ -61,8 +61,8 @@ data = {
             ])
         },
         {
-            "name": "Teal 40",
-            "foreground": "#08bdba",
+            "name": "Teal 30",
+            "foreground": "#3ddbd9",
             "scope": ", ".join([
                 "variable.function",
                 "variable.annotation",
@@ -72,8 +72,8 @@ data = {
             ])
         },
         {
-            "name": "Green 40",
-            "foreground": "#42be65",
+            "name": "Green 30",
+            "foreground": "#6fdc8c",
             "scope": ", ".join([
                 "string"
             ])
