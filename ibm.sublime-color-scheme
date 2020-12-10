@@ -16,12 +16,12 @@
         {
             "name": "Magenta 40",
             "foreground": "#ff7eb6",
-            "scope": "keyword, punctuation.definition.numeric, punctuation.separator.combinator, entity.other.pseudo-class, entity.other.pseudo-element, storage.type.function.arrow"
+            "scope": "keyword, punctuation.definition.numeric, punctuation.separator.combinator, entity.other.pseudo-class, entity.other.pseudo-element, storage.type.function.arrow, storage.type.numeric, constant.other.placeholder, constant.character.escape"
         },
         {
             "name": "Purple 40",
             "foreground": "#be95ff",
-            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum, entity.name.type, variable.type"
+            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum, entity.name.type, variable.type, storage.type.source, meta.generic, meta.function.return-type, meta.struct"
         },
         {
             "name": "Blue 50",
@@ -31,7 +31,7 @@
         {
             "name": "Teal 30",
             "foreground": "#3ddbd9",
-            "scope": "variable.function, variable.annotation, entity.name.function, entity.other.attribute-name, support.function"
+            "scope": "variable.function, variable.annotation, entity.name.function, entity.other.attribute-name, support.function, support.macro"
         },
         {
             "name": "Green 30",
@@ -51,7 +51,7 @@
         {
             "name": "White",
             "foreground": "#ffffff",
-            "scope": ""
+            "scope": "variable"
         },
         {
             "name": "Italic",
@@ -60,7 +60,7 @@
         },
         {
             "name": "None",
-            "scope": "keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.unpacking, keyword.operator.relational, keyword.operator.optional, keyword.operator.type.annotation, storage.type.function.arrow, entity.name.tag.html, entity.name.tag.",
+            "scope": "keyword.operator, storage.type.function.arrow, storage.type.source, entity.name.tag.html, entity.name.tag.",
             "font_style": ""
         }
     ]

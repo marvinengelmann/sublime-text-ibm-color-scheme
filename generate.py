@@ -27,7 +27,10 @@ data = {
                 "punctuation.separator.combinator",
                 "entity.other.pseudo-class",
                 "entity.other.pseudo-element",
-                "storage.type.function.arrow"
+                "storage.type.function.arrow",
+                "storage.type.numeric",
+                "constant.other.placeholder",
+                "constant.character.escape"
             ])
         },
         {
@@ -46,7 +49,11 @@ data = {
                 "entity.name.struct",
                 "entity.name.enum",
                 "entity.name.type",
-                "variable.type"
+                "variable.type",
+                "storage.type.source",
+                "meta.generic",
+                "meta.function.return-type",
+                "meta.struct"
             ])
         },
         {
@@ -68,7 +75,8 @@ data = {
                 "variable.annotation",
                 "entity.name.function",
                 "entity.other.attribute-name",
-                "support.function"
+                "support.function",
+                "support.macro"
             ])
         },
         {
@@ -98,6 +106,7 @@ data = {
             "name": "White",
             "foreground": "#ffffff",
             "scope": ", ".join([
+                "variable"
             ])
         },
         {
@@ -118,14 +127,10 @@ data = {
         {
             "name": "None",
             "scope": ", ".join([
-                "keyword.operator.arithmetic",
-                "keyword.operator.comparison",
-                "keyword.operator.assignment",
-                "keyword.operator.unpacking",
-                "keyword.operator.relational",
-                "keyword.operator.optional",
-                "keyword.operator.type.annotation",
+                "keyword.operator",
+                "keyword.other.unit",
                 "storage.type.function.arrow",
+                "storage.type.source",
                 "entity.name.tag.html",
                 "entity.name.tag."
             ]),
