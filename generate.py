@@ -29,6 +29,7 @@ data = {
                 "entity.other.pseudo-element",
                 "storage.type.function.arrow",
                 "storage.type.numeric",
+                "storage.modifier.reference",
                 "constant.other.placeholder",
                 "constant.character.escape"
             ])
@@ -114,6 +115,7 @@ data = {
             "scope": ", ".join([
                 "constant.language",
                 "keyword",
+                "keyword.operator.word",
                 "storage.type",
                 "storage.modifier",
                 "variable.language",
@@ -129,10 +131,13 @@ data = {
             "scope": ", ".join([
                 "keyword.operator",
                 "keyword.other.unit",
+                "keyword.declaration.doctype",
                 "storage.type.function.arrow",
                 "storage.type.source",
+                "storage.modifier.reference",
                 "entity.name.tag.html",
-                "entity.name.tag."
+                "entity.name.tag.",
+                "constant.language.doctype"
             ]),
             "font_style": ""
         }

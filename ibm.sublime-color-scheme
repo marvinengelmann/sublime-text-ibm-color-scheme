@@ -16,7 +16,7 @@
         {
             "name": "Magenta 40",
             "foreground": "#ff7eb6",
-            "scope": "keyword, punctuation.definition.numeric, punctuation.separator.combinator, entity.other.pseudo-class, entity.other.pseudo-element, storage.type.function.arrow, storage.type.numeric, constant.other.placeholder, constant.character.escape"
+            "scope": "keyword, punctuation.definition.numeric, punctuation.separator.combinator, entity.other.pseudo-class, entity.other.pseudo-element, storage.type.function.arrow, storage.type.numeric, storage.modifier.reference, constant.other.placeholder, constant.character.escape"
         },
         {
             "name": "Purple 40",
@@ -55,12 +55,12 @@
         },
         {
             "name": "Italic",
-            "scope": "constant.language, keyword, storage.type, storage.modifier, variable.language, entity.name.tag, entity.other.pseudo-class, entity.other.pseudo-element, support.type.primitive",
+            "scope": "constant.language, keyword, keyword.operator.word, storage.type, storage.modifier, variable.language, entity.name.tag, entity.other.pseudo-class, entity.other.pseudo-element, support.type.primitive",
             "font_style": "italic"
         },
         {
             "name": "None",
-            "scope": "keyword.operator, storage.type.function.arrow, storage.type.source, entity.name.tag.html, entity.name.tag.",
+            "scope": "keyword.operator, keyword.other.unit, keyword.declaration.doctype, storage.type.function.arrow, storage.type.source, storage.modifier.reference, entity.name.tag.html, entity.name.tag., constant.language.doctype",
             "font_style": ""
         }
     ]
