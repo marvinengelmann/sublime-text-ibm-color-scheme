@@ -51,10 +51,7 @@ data = {
                 "entity.name.enum",
                 "entity.name.type",
                 "variable.type",
-                "storage.type.source",
-                "meta.generic",
-                "meta.function.return-type",
-                "meta.struct"
+                "storage.type.source"
             ])
         },
         {

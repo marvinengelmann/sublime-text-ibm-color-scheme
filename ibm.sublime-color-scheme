@@ -21,7 +21,7 @@
         {
             "name": "Purple 40",
             "foreground": "#be95ff",
-            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum, entity.name.type, variable.type, storage.type.source, meta.generic, meta.function.return-type, meta.struct"
+            "scope": "constant.language, support.type, support.class, support.other.namespace, entity.name.class, entity.other.inherited-class, entity.name.interface, entity.name.trait, entity.name.namespace, entity.name.struct, entity.name.enum, entity.name.type, variable.type, storage.type.source"
         },
         {
             "name": "Blue 50",
