@@ -5,7 +5,8 @@
         "foreground": "#ffffff",
         "selection": "#262626",
         "selection_border": "#ffffff",
-        "caret": "#0f62fe"
+        "caret": "#0f62fe",
+        "line_highlight": "#0f62f2"
     },
     "rules": [
         {

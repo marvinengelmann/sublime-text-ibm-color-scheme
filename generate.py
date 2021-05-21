@@ -8,6 +8,7 @@ data = {
         "selection": "#262626",
         "selection_border": "#ffffff",
         "caret": "#0f62fe",
+        "line_highlight": "#0f62f2"
     },
     "rules": [
         {
@@ -141,5 +142,5 @@ data = {
     ]
 }
 
-with open('ibm.sublime-color-scheme', 'w') as outfile:
+with open('IBM.sublime-color-scheme', 'w') as outfile:
     json.dump(data, outfile, indent=4)
